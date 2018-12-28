@@ -6,7 +6,7 @@ open python
 import pymysql
 # CONNECTING PYTHON AND MYSQL
 a=pymysql.cursor("hostlocal","root","password","Database_Name")
-#
+# CONNECTING TO THE TABLE
 a
 #
 cursor=a.cursor()
