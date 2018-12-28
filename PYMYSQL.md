@@ -1,5 +1,5 @@
 # PYTHON
-# Pyhton MYSQL Database (Python and sql database connetction).
+# Python MYSQL Database (Python and sql database connetction).
 # INSTALLATION:
 pip apt install pymysql
 # open python
