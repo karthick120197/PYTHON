@@ -19,3 +19,5 @@ cursor.execute("select * from table")
 # TO PRINT SPECIFIC ROW
 pritn(row["row_Number"])
 print (row[1])
+# FOR CLOSING THE CONNECTION
+a.close()
