@@ -2,7 +2,7 @@
 # Pyhton MYSQL Database (Python and sql database connetction).
 # INSTALLATION:
 pip apt install pymysql
-open python
+# open python
 import pymysql
 # CONNECTING PYTHON AND MYSQL
 a=pymysql.cursor("hostlocal","USER=root","password","Database_Name")
