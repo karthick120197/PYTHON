@@ -6,6 +6,7 @@ pip apt install pymysql
 import pymysql
 # CONNECTING PYTHON AND MYSQL
 a=pymysql.cursor("hostlocal","USER=root","password","Database_Name")
+#
 a
 cursor=a.cursor()
 # FOR PRINTING CURSOR.EXECUTE IS USED EXAMPLE:
