@@ -2,10 +2,21 @@
 # Python MYSQL Database (Python and sql database connetction).
 # INSTALLATION:
 pip apt install pymysql
+# Create sql table
+create database Bluebus;
+create table Bus_info(Bus_no int not null,Bus_name varchar(50) not null, Bus_type varchar(20) not null, Bus_capacity int not null,Travels_id int not null);
 # open python
 import pymysql
 # CONNECTING PYTHON AND MYSQL
-a=pymysql.cursor("hostlocal","root","password","Database_Name")
+import pymysql.cursors
+
+# Connect to the database
+a= pymysql.connect(host='localhost',
+                             user='user',
+                             password='passwd',
+                             db='db',
+                             charset='utf8mb4',
+                             cursorclass=pymysql.cursors.DictCursor)
 # CONNECTING TO THE TABLE
 a
 #
