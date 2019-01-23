@@ -64,9 +64,4 @@ query='''select car_number, Manufacture_year from servicestable11 having min(Man
 df=pd.read_sql_query(query,engine)
 df
 CREATE TABLE customer_feedback ( Feedback int(11) NOT NULL, services varchar(50) NOT NULL, PRIMARY KEY (Feedback) )
-
-
-
-
-
-
+INSERT INTO customer_feedback(Feedback, services) values('1', 'poor'), ('2','ok'), ('3','good'), ('4','verygood'), ('5','excellent');
